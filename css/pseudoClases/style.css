@@ -1,0 +1,34 @@
+.main-nav{
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: #13a4a4;
+}
+
+.main-nav_item{
+    display: inline-block; 
+    font-size: 20px;   
+}
+
+.main-nav_item a {
+    color: white;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;    
+}
+
+/*Pseudo clases*/
+
+.main-nav_item a:hover{
+    color: blue;
+}
+
+.main-nav_item a:active{
+    color: red;
+}
+
+/*Pseudo elementos*/
+
+.main-nav_item a::after{
+    content: " | ";
+}

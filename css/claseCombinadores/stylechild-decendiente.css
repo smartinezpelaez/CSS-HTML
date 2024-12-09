@@ -1,0 +1,8 @@
+div > p {
+    color: red;
+}
+
+article p{
+    color: blue;
+    background-color: black;
+}

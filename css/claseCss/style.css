@@ -1,0 +1,19 @@
+/*Selector por etiqueta*/
+p{
+    color: brown;
+    font-size: 30px;
+}
+
+/*Clases en CSS*/
+.parrafo{
+    color: red;
+    font-size: 50px;
+
+}
+
+/*ID*/
+#texto{
+    color: yellow;
+    font-size: 80;
+
+}
